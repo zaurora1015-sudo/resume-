@@ -1,0 +1,342 @@
+{
+  "format": "GLB + EXT_meshopt_compression + WebP",
+  "sourceBlend": "815_web_reference_match_lod_cabinet_new.blend",
+  "toneMapping": "AgX Very Low Contrast approximation",
+  "exposure": 0.25999999046325684,
+  "gamma": 1.100000023841858,
+  "background": "#D9CED2",
+  "cameras": {
+    "WEB_CAMERA_Blue": {
+      "position": [
+        3.1677101,
+        -2.4416463,
+        1.3207586
+      ],
+      "quaternionWxyz": [
+        0.7160344,
+        0.5746783,
+        0.2480424,
+        0.3090544
+      ],
+      "type": "ORTHO",
+      "orthoScale": 0.7200000286102295,
+      "target": [
+        0.326,
+        0.237,
+        0.455
+      ]
+    },
+    "WEB_CAMERA_Green": {
+      "position": [
+        2.5787101,
+        -3.0676463,
+        1.3207586
+      ],
+      "quaternionWxyz": [
+        0.7160344,
+        0.5746783,
+        0.2480424,
+        0.3090544
+      ],
+      "type": "ORTHO",
+      "orthoScale": 0.7200000286102295,
+      "target": [
+        -0.263,
+        -0.389,
+        0.455
+      ]
+    },
+    "WEB_CAMERA_Main": {
+      "position": [
+        2.8667102,
+        -2.7486463,
+        1.3707585
+      ],
+      "quaternionWxyz": [
+        0.7160344,
+        0.5746783,
+        0.2480424,
+        0.3090544
+      ],
+      "type": "ORTHO",
+      "orthoScale": 1.8799999952316284,
+      "target": [
+        0.025,
+        -0.07,
+        0.505
+      ]
+    },
+    "WEB_CAMERA_Pottery": {
+      "position": [
+        2.7547102,
+        -2.5886464,
+        1.7207587
+      ],
+      "quaternionWxyz": [
+        0.7160344,
+        0.5746783,
+        0.2480424,
+        0.3090544
+      ],
+      "type": "ORTHO",
+      "orthoScale": 0.7599999904632568,
+      "target": [
+        -0.087,
+        0.09,
+        0.855
+      ]
+    },
+    "WEB_CAMERA_Reception": {
+      "position": [
+        2.9367101,
+        -2.8836462,
+        1.0707586
+      ],
+      "quaternionWxyz": [
+        0.7160344,
+        0.5746783,
+        0.2480424,
+        0.3090544
+      ],
+      "type": "ORTHO",
+      "orthoScale": 0.7200000286102295,
+      "target": [
+        0.095,
+        -0.205,
+        0.205
+      ]
+    }
+  },
+  "lights": [
+    {
+      "name": "WEB_LIGHT_GlobalFront",
+      "type": "AREA",
+      "position": [
+        0.08,
+        -1.35,
+        1.22
+      ],
+      "quaternionWxyz": [
+        0.8633268,
+        0.5041261,
+        0.0115388,
+        0.0197605
+      ],
+      "color": "#FFF2E8",
+      "energy": 8.0,
+      "castShadow": false,
+      "shape": "RECTANGLE",
+      "size": 2.4000000953674316,
+      "sizeY": 1.600000023841858
+    },
+    {
+      "name": "WEB_LIGHT_GlobalTop",
+      "type": "AREA",
+      "position": [
+        0.0,
+        -0.02,
+        1.58
+      ],
+      "quaternionWxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": "#FFF7F0",
+      "energy": 4.5,
+      "castShadow": false,
+      "shape": "RECTANGLE",
+      "size": 2.049999952316284,
+      "sizeY": 1.5
+    },
+    {
+      "name": "WEB_LIGHT_Lamp_Green",
+      "type": "SPOT",
+      "position": [
+        -0.145,
+        -0.253,
+        0.59
+      ],
+      "quaternionWxyz": [
+        0.6933873,
+        0.2083939,
+        0.1985347,
+        0.6605831
+      ],
+      "color": "#FFE8B8",
+      "energy": 2.5,
+      "castShadow": false,
+      "angle": 1.6580628156661987,
+      "blend": 0.9200000166893005
+    },
+    {
+      "name": "WEB_LIGHT_Lamp_Office",
+      "type": "AREA",
+      "position": [
+        0.384,
+        0.201,
+        0.675
+      ],
+      "quaternionWxyz": [
+        0.2691652,
+        0.0504492,
+        0.177178,
+        0.9453111
+      ],
+      "color": "#F5F7FF",
+      "energy": 1.7999999523162842,
+      "castShadow": false,
+      "shape": "DISK",
+      "size": 0.12999999523162842,
+      "sizeY": 0.25
+    },
+    {
+      "name": "WEB_LIGHT_Lamp_Pottery",
+      "type": "AREA",
+      "position": [
+        0.249,
+        -0.1,
+        0.815
+      ],
+      "quaternionWxyz": [
+        0.6954466,
+        0.1278836,
+        0.1278835,
+        0.6954464
+      ],
+      "color": "#FFF0D2",
+      "energy": 2.799999952316284,
+      "castShadow": false,
+      "shape": "DISK",
+      "size": 0.1599999964237213,
+      "sizeY": 0.25
+    },
+    {
+      "name": "WEB_LIGHT_Lamp_Reception",
+      "type": "AREA",
+      "position": [
+        -0.086,
+        -0.247,
+        0.285
+      ],
+      "quaternionWxyz": [
+        0.9145342,
+        0.1482912,
+        -0.0602377,
+        -0.3714949
+      ],
+      "color": "#FFF2E8",
+      "energy": 2.0,
+      "castShadow": false,
+      "shape": "DISK",
+      "size": 0.11999999731779099,
+      "sizeY": 0.25
+    },
+    {
+      "name": "WEB_LIGHT_RearLift",
+      "type": "AREA",
+      "position": [
+        -0.05,
+        0.82,
+        0.96
+      ],
+      "quaternionWxyz": [
+        0.0264058,
+        0.0151543,
+        -0.4975236,
+        -0.866916
+      ],
+      "color": "#EEEAF0",
+      "energy": 3.0,
+      "castShadow": false,
+      "shape": "RECTANGLE",
+      "size": 1.649999976158142,
+      "sizeY": 1.100000023841858
+    },
+    {
+      "name": "WEB_LIGHT_Room_Blue",
+      "type": "AREA",
+      "position": [
+        0.34,
+        0.02,
+        0.73
+      ],
+      "quaternionWxyz": [
+        0.9954345,
+        0.0954467,
+        0.0,
+        0.0
+      ],
+      "color": "#E4EEFB",
+      "energy": 3.0,
+      "castShadow": false,
+      "shape": "RECTANGLE",
+      "size": 0.6800000071525574,
+      "sizeY": 0.5199999809265137
+    },
+    {
+      "name": "WEB_LIGHT_Room_Green",
+      "type": "AREA",
+      "position": [
+        -0.32,
+        -0.32,
+        0.72
+      ],
+      "quaternionWxyz": [
+        0.9853294,
+        0.131223,
+        0.0144046,
+        0.1081619
+      ],
+      "color": "#E8F3E6",
+      "energy": 3.1500000953674316,
+      "castShadow": false,
+      "shape": "RECTANGLE",
+      "size": 0.6800000071525574,
+      "sizeY": 0.5199999809265137
+    },
+    {
+      "name": "WEB_LIGHT_Room_Pottery",
+      "type": "AREA",
+      "position": [
+        0.02,
+        -0.02,
+        1.13
+      ],
+      "quaternionWxyz": [
+        0.694348,
+        0.1337192,
+        0.1337192,
+        0.694348
+      ],
+      "color": "#FFE8C8",
+      "energy": 2.200000047683716,
+      "castShadow": false,
+      "shape": "RECTANGLE",
+      "size": 0.7599999904632568,
+      "sizeY": 0.5799999833106995
+    },
+    {
+      "name": "WEB_LIGHT_Room_Reception",
+      "type": "AREA",
+      "position": [
+        0.02,
+        -0.23,
+        0.43
+      ],
+      "quaternionWxyz": [
+        0.9951333,
+        0.0985376,
+        0.0,
+        0.0
+      ],
+      "color": "#FBE7EC",
+      "energy": 4.800000190734863,
+      "castShadow": false,
+      "shape": "RECTANGLE",
+      "size": 0.6800000071525574,
+      "sizeY": 0.5199999809265137
+    }
+  ]
+}
